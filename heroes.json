@@ -6,18 +6,48 @@
     "winrate": "51%",
     "difficulty": "Easy",
     "counters": ["Saber", "Natalia", "Helcurt"],
-    "strongAgainst": ["Layla", "Hanabi", "Eudora"],
+    "strongAgainst": ["Layla", "Hanabi"],
     "compatible": ["Tigreal", "Rafaela"]
+  },
+  {
+    "name": "Layla",
+    "role": "Marksman",
+    "image": "images/layla.jpg",
+    "winrate": "",
+    "difficulty": "Easy",
+    "counters": ["Saber", "Natalia"],
+    "strongAgainst": ["Eudora"],
+    "compatible": ["Tigreal"]
   },
   {
     "name": "Saber",
     "role": "Assassin",
     "image": "images/saber.jpg",
-    "winrate": "49%",
+    "winrate": "",
     "difficulty": "Medium",
-    "counters": ["Tigreal", "Chou", "Franco"],
-    "strongAgainst": ["Miya", "Layla", "Eudora"],
+    "counters": ["Chou", "Franco"],
+    "strongAgainst": ["Miya", "Layla"],
     "compatible": ["Atlas", "Rafaela"]
+  },
+  {
+    "name": "Alucard",
+    "role": "Fighter",
+    "image": "images/alucard.jpg",
+    "winrate": "",
+    "difficulty": "Easy",
+    "counters": ["Eudora", "Saber"],
+    "strongAgainst": ["Layla", "Miya"],
+    "compatible": ["Tigreal"]
+  },
+  {
+    "name": "Eudora",
+    "role": "Mage",
+    "image": "images/eudora.jpg",
+    "winrate": "",
+    "difficulty": "Easy",
+    "counters": ["Hayabusa", "Lancelot"],
+    "strongAgainst": ["Miya", "Layla"],
+    "compatible": ["Tigreal", "Franco"]
   },
   {
     "name": "Tigreal",
@@ -26,27 +56,137 @@
     "winrate": "52%",
     "difficulty": "Easy",
     "counters": ["Karrie", "Valir"],
-    "strongAgainst": ["Miya", "Layla", "Saber"],
-    "compatible": ["Miya", "Eudora", "Alucard"]
+    "strongAgainst": ["Saber", "Layla"],
+    "compatible": ["Miya", "Eudora"]
   },
   {
-    "name": "Eudora",
-    "role": "Mage",
-    "image": "images/eudora.jpg",
-    "winrate": "50%",
-    "difficulty": "Easy",
-    "counters": ["Hayabusa", "Lancelot"],
-    "strongAgainst": ["Miya", "Layla", "Alucard"],
-    "compatible": ["Tigreal", "Franco"]
+    "name": "Franco",
+    "role": "Tank",
+    "image": "images/franco.jpg",
+    "winrate": "",
+    "difficulty": "Medium",
+    "counters": ["Diggie"],
+    "strongAgainst": ["Miya", "Saber"],
+    "compatible": ["Eudora"]
   },
   {
-    "name": "Alucard",
+    "name": "Chou",
     "role": "Fighter",
-    "image": "images/alucard.jpg",
-    "winrate": "48%",
-    "difficulty": "Easy",
-    "counters": ["Eudora", "Saber"],
+    "image": "images/chou.jpg",
+    "winrate": "",
+    "difficulty": "Hard",
+    "counters": ["Miya", "Saber"],
+    "strongAgainst": ["Layla"],
+    "compatible": ["Atlas"]
+  },
+  {
+    "name": "Natalia",
+    "role": "Assassin",
+    "image": "images/natalia.jpg",
+    "winrate": "",
+    "difficulty": "Hard",
+    "counters": ["Miya", "Layla"],
+    "strongAgainst": ["Eudora"],
+    "compatible": ["Helcurt"]
+  },
+  {
+    "name": "Helcurt",
+    "role": "Assassin",
+    "image": "images/helcurt.jpg",
+    "winrate": "",
+    "difficulty": "Medium",
+    "counters": ["Miya", "Eudora"],
+    "strongAgainst": ["Layla"],
+    "compatible": ["Natalia"]
+  },
+  {
+    "name": "Lancelot",
+    "role": "Assassin",
+    "image": "images/lancelot.jpg",
+    "winrate": "",
+    "difficulty": "Hard",
+    "counters": ["Eudora"],
     "strongAgainst": ["Miya", "Layla"],
-    "compatible": ["Tigreal", "Angela"]
+    "compatible": ["Rafaela"]
+  },
+  {
+    "name": "Hayabusa",
+    "role": "Assassin",
+    "image": "images/hayabusa.jpg",
+    "winrate": "",
+    "difficulty": "Hard",
+    "counters": ["Eudora"],
+    "strongAgainst": ["Miya", "Layla"],
+    "compatible": ["Rafaela"]
+  },
+  {
+    "name": "Rafaela",
+    "role": "Support",
+    "image": "images/rafaela.jpg",
+    "winrate": "",
+    "difficulty": "Easy",
+    "counters": ["Burst Assassins"],
+    "strongAgainst": ["Sustain fights"],
+    "compatible": ["Miya", "Saber"]
+  },
+  {
+    "name": "Angela",
+    "role": "Support",
+    "image": "images/angela.jpg",
+    "winrate": "",
+    "difficulty": "Medium",
+    "counters": ["Burst heroes"],
+    "strongAgainst": ["Team fights"],
+    "compatible": ["Alucard", "Tigreal"]
+  },
+  {
+    "name": "Atlas",
+    "role": "Tank",
+    "image": "images/atlas.jpg",
+    "winrate": "",
+    "difficulty": "Medium",
+    "counters": ["Miya"],
+    "strongAgainst": ["Grouped enemies"],
+    "compatible": ["Saber", "Chou"]
+  },
+  {
+    "name": "Karrie",
+    "role": "Marksman",
+    "image": "images/karrie.jpg",
+    "winrate": "",
+    "difficulty": "Medium",
+    "counters": ["Tigreal"],
+    "strongAgainst": ["Tank heroes"],
+    "compatible": ["Angela"]
+  },
+  {
+    "name": "Valir",
+    "role": "Mage",
+    "image": "images/valir.jpg",
+    "winrate": "",
+    "difficulty": "Medium",
+    "counters": ["Tigreal"],
+    "strongAgainst": ["Melee heroes"],
+    "compatible": ["Franco"]
+  },
+  {
+    "name": "Hanabi",
+    "role": "Marksman",
+    "image": "images/hanabi.jpg",
+    "winrate": "",
+    "difficulty": "Easy",
+    "counters": ["Saber"],
+    "strongAgainst": ["Low mobility heroes"],
+    "compatible": ["Tigreal"]
+  },
+  {
+    "name": "Diggie",
+    "role": "Support",
+    "image": "images/diggie.jpg",
+    "winrate": "",
+    "difficulty": "Medium",
+    "counters": ["Franco"],
+    "strongAgainst": ["CC teams"],
+    "compatible": ["All teams"]
   }
 ]
