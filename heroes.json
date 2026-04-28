@@ -6,8 +6,8 @@
     "winrate": "51%",
     "difficulty": "Easy",
     "counters": ["Saber", "Natalia", "Helcurt"],
-    "strongAgainst": ["Layla", "Hanabi"],
-    "compatible": ["Tigreal", "Angela"]
+    "strongAgainst": ["Layla", "Hanabi", "Eudora"],
+    "compatible": ["Tigreal", "Rafaela"]
   },
   {
     "name": "Saber",
@@ -15,8 +15,38 @@
     "image": "images/saber.jpg",
     "winrate": "49%",
     "difficulty": "Medium",
-    "counters": ["Miya", "Layla"],
-    "strongAgainst": ["Squishy Heroes"],
-    "compatible": ["Atlas", "Franco"]
+    "counters": ["Tigreal", "Chou", "Franco"],
+    "strongAgainst": ["Miya", "Layla", "Eudora"],
+    "compatible": ["Atlas", "Rafaela"]
+  },
+  {
+    "name": "Tigreal",
+    "role": "Tank",
+    "image": "images/tigreal.jpg",
+    "winrate": "52%",
+    "difficulty": "Easy",
+    "counters": ["Karrie", "Valir"],
+    "strongAgainst": ["Miya", "Layla", "Saber"],
+    "compatible": ["Miya", "Eudora", "Alucard"]
+  },
+  {
+    "name": "Eudora",
+    "role": "Mage",
+    "image": "images/eudora.jpg",
+    "winrate": "50%",
+    "difficulty": "Easy",
+    "counters": ["Hayabusa", "Lancelot"],
+    "strongAgainst": ["Miya", "Layla", "Alucard"],
+    "compatible": ["Tigreal", "Franco"]
+  },
+  {
+    "name": "Alucard",
+    "role": "Fighter",
+    "image": "images/alucard.jpg",
+    "winrate": "48%",
+    "difficulty": "Easy",
+    "counters": ["Eudora", "Saber"],
+    "strongAgainst": ["Miya", "Layla"],
+    "compatible": ["Tigreal", "Angela"]
   }
 ]
