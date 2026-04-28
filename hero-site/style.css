@@ -1,0 +1,49 @@
+body {
+    font-family: Arial;
+    background: #0f172a;
+    color: white;
+    margin: 0;
+}
+
+header {
+    text-align: center;
+    padding: 15px;
+    background: #1e293b;
+    font-size: 22px;
+}
+
+.search-box {
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+}
+
+input {
+    width: 90%;
+    max-width: 400px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+}
+
+.hero-card {
+    background: #1e293b;
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 500px;
+    border-radius: 15px;
+}
+
+.hero-img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.tag {
+    background: #334155;
+    padding: 6px;
+    margin: 4px;
+    display: inline-block;
+    border-radius: 6px;
+}
