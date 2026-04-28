@@ -95,3 +95,8 @@ input {
         transform: translateX(-50%);
     }
 }
+
+header, .search-box, #results {
+    position: relative;
+    z-index: 1;
+}
