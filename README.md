@@ -23,21 +23,6 @@ This project is still **under development** and will be expanded over time.
 
 ---
 
-## 🧪 Current Content
-
-⚠️ The database is still small.
-
-Currently available heroes:
-- Miya
-- Saber
-- Tigreal
-- Eudora
-- Alucard
-
-More heroes will be added soon.
-
----
-
 ## 🚧 Project Status
 
 This project is still in **active development**.
